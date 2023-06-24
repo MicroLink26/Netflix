@@ -1,5 +1,5 @@
 section {
-  padding-left: 40px;
+  margin: 0 0 40px 50px;
 }
 section div {
   display: flex;
@@ -18,4 +18,9 @@ section img {
   width: 350px;
   height: 180px;
   object-fit: cover;
+}
+section h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 20px 0;
 }

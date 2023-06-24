@@ -3,6 +3,10 @@ body {
   color: white;
 }
 
+.logo {
+  height: 100px;
+  margin-left: 50px;
+}
 /* loader */
 .lds-ring {
   display: inline-block;

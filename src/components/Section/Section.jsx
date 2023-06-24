@@ -1,7 +1,11 @@
 const Section = (props) => {
+  const { category, images } = props.category;
   return (
     <section>
-      <p>Section</p>
+      <h2>{category}</h2>
+      {images.map((image) => (
+        <img src={image} />
+      ))}
     </section>
   );
 };

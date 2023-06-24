@@ -1,0 +1,21 @@
+section {
+  padding-left: 40px;
+}
+section div {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  overflow-x: scroll;
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+section div::-webkit-scrollbar {
+  display: none;
+}
+section img {
+  width: 350px;
+  height: 180px;
+  object-fit: cover;
+}
